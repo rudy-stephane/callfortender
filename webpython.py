@@ -1,5 +1,4 @@
 import os, os.path
-import random
 import string
 import cherrypy
 import datetime

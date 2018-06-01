@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 cherrypy = "==3.8.0"
 requests = "*"
+datetime = "*"
+lxml = "*"
+cssselect = "*"
 
 [dev-packages]
 
