@@ -6,7 +6,6 @@ import requests
 import lxml
 import cssselect
 import lxml.html
-import datetime
 import json
 import smtplib
 from email.mime.multipart import MIMEMultipart
