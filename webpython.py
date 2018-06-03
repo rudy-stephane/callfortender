@@ -726,5 +726,18 @@ class MonSiteWeb(object):
     #methodetest.exposed = True
 
     #sendMail.exposed = True
+if __name__ == '__main__':
+    print(os.path.dirname(os.getcwd()))
+    conf = {
+        '/': {
+            'tools.sessions.on': True,
+            'tools.staticdir.root': os.path.abspath(os.getcwd())
+        },
+        '/static': {
+            'tools.staticdir.on': True,
+            'tools.staticdir.dir':'./public'
+        }
+    }
+    cherrypy.quickstart(MonSiteWeb(), '/', conf)
 
-cherrypy.quickstart(MonSiteWeb(), config ="server.conf")
+#cherrypy.quickstart(MonSiteWeb(), config ="server.conf")
