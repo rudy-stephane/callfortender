@@ -1,4 +1,4 @@
-!/usr/bin/env python
+#!/usr/bin/env python
 
 #
 # This file may be used instead of Apache mod_wsgi to run your python
