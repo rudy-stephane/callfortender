@@ -11,7 +11,7 @@ import os
 
 try:
    zvirtenv = os.path.join(os.environ['OPENSHIFT_PYTHON_DIR'],
-                           'virtenv', 'bin', 'activate_this.py')
+                           'virtenv', 'bin', 'webpython.py')
    execfile(zvirtenv, dict(__file__ = zvirtenv) )
 except IOError:
    pass
