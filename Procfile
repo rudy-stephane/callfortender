@@ -1,1 +1,1 @@
-web: python webpython.py
+web: python webpython.py --log-file -
