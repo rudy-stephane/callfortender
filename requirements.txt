@@ -21,7 +21,6 @@ pipenv==2018.5.18
 portend==2.2
 pygame==1.9.3
 PyInstaller==3.3.1
-pypiwin32==223
 pytz==2018.4
 requests==2.18.4
 simplejson==3.15.0
