@@ -28,7 +28,7 @@ except IOError:
 if __name__ == '__main__':
    ip   = os.environ['OPENSHIFT_PYTHON_IP']
    port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
-   app = imp.load_source('application', 'webpython)
+   app = imp.load_source('application', 'webpython')
 
    fwtype="wsgiref"
    for fw in ("gevent", "cherrypy", "flask"):
