@@ -12,7 +12,7 @@ gunicorn==19.8.1
 html5lib==1.0.1
 idna==2.6
 image==1.5.20
-lxml==4.2.1
+lxml==4.6.2
 macholib==1.9
 more-itertools==4.1.0
 pefile==2017.11.5
